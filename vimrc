@@ -63,9 +63,9 @@ set cursorline
 
 " Javascript section
 au FileType javascript setl nocindent
-au FileType javascript setl set tabstop=2
-au FileType javascript setl set softtabstop=2
-au FileType javascript setl set shiftwidth=2
+au FileType javascript setl tabstop=2
+au FileType javascript setl softtabstop=2
+au FileType javascript setl shiftwidth=2
 
 " Highlight 81 column
 set colorcolumn=81
