@@ -6,10 +6,10 @@
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
+	url = git://github.com/ervandew/supertab.git
 [submodule "bundle/unimpared"]
 	path = bundle/unimpared
-	url = https://github.com/tpope/vim-unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/surround"]
 	path = bundle/surround
-	url = https://github.com/tpope/vim-surround
+	url = git://github.com/tpope/vim-surround.git
