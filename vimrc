@@ -10,8 +10,9 @@ syntax on
 " solarized colorscheme
 let g:solarized_termtrans=1
 set background=dark
-colorscheme solarized
 set t_Co=256
+"colorscheme Tomorrow-Night
+colorscheme solarized
 
 " gui stuff
 set gfn=Monaco:h12
