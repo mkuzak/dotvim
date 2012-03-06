@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/mkuzak/code/projects/ave'
+let g:netrw_dirhist_2='/Users/mkuzak/code/projects/ave/public'
+let g:netrw_dirhist_3='/Users/mkuzak/code/projects/ave/public/javascripts'
+let g:netrw_dirhist_4='/Users/mkuzak/code/projects/ave'
+let g:netrw_dirhist_5='/Users/mkuzak/code/projects/ave/public'
+let g:netrw_dirhist_6='/Users/mkuzak/code/projects/ave/public/javascripts'
+let g:netrw_dirhist_7='/Users/mkuzak/code/projects/ave'
+let g:netrw_dirhist_8='/Users/mkuzak/code/projects/ave/public'
+let g:netrw_dirhist_9='/Users/mkuzak/code/projects/ave/public/javascripts'

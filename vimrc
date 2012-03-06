@@ -71,3 +71,6 @@ au FileType javascript setl shiftwidth=2
 " Highlight 81 column
 set colorcolumn=81
 :highlight ColorColumn ctermbg=black guibg=black
+
+" jslint config
+nmap <F4> :w<CR>:make<CR>:cw<CR>
