@@ -25,3 +25,6 @@
 [submodule "bundle/julia"]
 	path = bundle/julia
 	url = git://github.com/JuliaLang/julia-vim.git
+[submodule "bundle/slime"]
+	path = bundle/slime
+	url = git://github.com/jpalardy/vim-slime.git
