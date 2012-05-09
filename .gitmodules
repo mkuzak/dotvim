@@ -15,7 +15,7 @@
 	url = git://github.com/tpope/vim-surround.git
 [submodule "bundle/tomorrow"]
 	path = bundle/tomorrow
-	url = git://github.com/chriskempson/Vim-Tomorrow-Theme.git
+	url = git://github.com/chriskempson/vim-tomorrow-theme.git
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = git://github.com/tpope/vim-commentary.git
