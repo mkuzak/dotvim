@@ -122,7 +122,8 @@ set colorcolumn=81
 :highlight ColorColumn ctermbg=black guibg=black
 
 " jslint config
-nmap <F4> :w<CR>:make<CR>:cw<CR>
+" nmap <F4> :w<CR>:make<CR>:cw<CR>
+nmap <F4> :w<CR>:JSHint<CR>
 
 " flake8 config
 autocmd BufWritePost *.py call Flake8()
