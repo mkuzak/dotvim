@@ -15,7 +15,7 @@ endif
 let g:solarized_termtrans=1
 set background=dark
 set t_Co=256
-colorscheme Tomorrow-Night
+colorscheme molokai
 "colorscheme solarized
 
 " gui stuff
