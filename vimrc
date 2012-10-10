@@ -12,7 +12,7 @@ if has('autocmd')
 endif
 
 " solarized colorscheme
-let g:solarized_termtrans=1
+" let g:solarized_termtrans=1
 set background=dark
 set t_Co=256
 colorscheme molokai
@@ -116,6 +116,11 @@ au FileType javascript setl nocindent
 au FileType javascript setl tabstop=2
 au FileType javascript setl softtabstop=2
 au FileType javascript setl shiftwidth=2
+
+" html indenting
+au FileType html setl tabstop=2
+au FileType html setl softtabstop=2
+au FileType html setl shiftwidth=2
 
 " Highlight 81 column
 set colorcolumn=81
