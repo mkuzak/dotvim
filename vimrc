@@ -12,11 +12,11 @@ if has('autocmd')
 endif
 
 " solarized colorscheme
-" let g:solarized_termtrans=1
+let g:solarized_termtrans=1
 set background=dark
 set t_Co=256
-colorscheme molokai
-"colorscheme solarized
+" colorscheme molokai
+ colorscheme solarized
 
 " gui stuff
 set gfn=Monaco:h12
@@ -128,7 +128,8 @@ set colorcolumn=81
 
 " jslint config
 " nmap <F4> :w<CR>:make<CR>:cw<CR>
-nmap <F4> :w<CR>:JSHint<CR>
+" "nmap <F4> :w<CR>:JSHint<CR>
+autocmd BufWritePost *.js JSHint
 
 " flake8 config
 autocmd BufWritePost *.py call Flake8()
