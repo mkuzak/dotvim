@@ -133,3 +133,18 @@ autocmd BufWritePost *.js JSHint
 
 " flake8 config
 autocmd BufWritePost *.py call Flake8()
+
+" tidying up trailing whitespace
+function! <SID>StripTrailingWhitespaces()
+    " Preparation: save last search, and cursor position.
+    let _s=@/
+    let l = line(".")
+    let c = col(".")
+    "Do the business:
+    %s/\s\+$//e
+    " Clean up: restore previous search history, and cursonr position"
+    let @/=_s
+    call cursor(l,c)
+endfunction
+
+autocmd BufWrite *.py,*.js :call <SID>StripTrailingWhitespace()
