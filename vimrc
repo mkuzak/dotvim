@@ -147,4 +147,4 @@ function! <SID>StripTrailingWhitespaces()
     call cursor(l,c)
 endfunction
 
-autocmd BufWrite *.py,*.js :call <SID>StripTrailingWhitespace()
+autocmd BufWrite *.py,*.js :call <SID>StripTrailingWhitespaces()
