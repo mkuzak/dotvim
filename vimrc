@@ -15,8 +15,8 @@ endif
 let g:solarized_termtrans=1
 set background=dark
 set t_Co=256
-" colorscheme molokai
- colorscheme solarized
+colorscheme molokai
+" colorscheme solarized
 
 " gui stuff
 set gfn=Monaco:h12
