@@ -12,7 +12,7 @@ if has('autocmd')
 endif
 
 " solarized colorscheme
-let g:solarized_termtrans=1
+" let g:solarized_termtrans=1
 set background=dark
 set t_Co=256
 colorscheme molokai
@@ -148,3 +148,12 @@ function! <SID>StripTrailingWhitespaces()
 endfunction
 
 autocmd BufWrite *.py,*.js :call <SID>StripTrailingWhitespaces()
+
+" fix background in vim in tmux
+set term=screen-256color
+
+" r in screen/tmux
+let vimrplugin_screenplugin=0
+
+" slime use tmux
+let g:slime_target="tmux"
