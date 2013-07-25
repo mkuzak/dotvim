@@ -35,7 +35,7 @@ set hidden
 
 " needed for vim-R-plugin
 " not compatibile with vi
-set nocompatibile
+set nocompatible
 syntax enable
 
 
