@@ -4,7 +4,8 @@ call pathogen#helptags()
 
 " syntax
 filetype off
-filetype plugin indent on
+filetype plugin on
+filetype indent on
 syntax on
 
 if has('autocmd')
@@ -31,6 +32,12 @@ set hidden
 "customize statusline
 :set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%04l,%04v][%p%%]\ [LEN=%L] 
 :set laststatus=2 
+
+" needed for vim-R-plugin
+" not compatibile with vi
+set nocompatibile
+syntax enable
+
 
 " indenting and formating
 set cindent
